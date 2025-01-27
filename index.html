@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta name="" content="">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<style type="text/css">
+	
+		html {
+  			background: url(images/bg_image1.png) no-repeat center center fixed;
+  			background-size: cover;
+  			height: 100%;
+ 			/* overflow: hidden; */
+			}
+	/*body{
+		background-color: #ccdde1;
+	} */
+	table, td{
+		border: 1px solid black;
+		border-collapse: collapse;
+	  	padding: 10px;
+		background-color: #d1e9de;
+	}
+	.layout{
+		border: 0px;
+		/*border-collapse: collapse; */
+	  	padding: 10px;
+		background-color: inherit;
+	}
+	h1, h2 {
+		text-align: center;
+	}
+	#advice{
+		display: none;
+	}
+	
+	
+</style>
+<title>Kelowna Wine Trails & Tours</title>
+    <!-- ENTER STUDENT INFORMATION HERE
+    ==========================================
+
+    STUDENT NAME: Adanwa Nwobodo;
+
+    CSIS 1280 AS2
+
+    COMPLETED ON:
+    ==========================================
+    -->
+
+</head>
+<body>
+<img src="images/bee2.gif" id="bee" style="position: absolute; left: -150; top: 0px;
+            visibility:hidden;" alt="Flying bee" height="179" width="144"/>
+            
+<h1> Kelowna Wine Trails and Tours</h1>
+<hr size="1" color="#b6bcbb"> <br />
+
+<div class="content" align="left">
+<table class="layout"><tr><td class="layout">
+   <form >
+      <table border="0">
+        <tr valign="center" >
+           <td>
+              <h3>Group Discounts</h3>
+                  <ul>
+                     <li>Daily Rate: $50 per person</li>
+                     <li>5-10 people: 10% discount</li>
+                     <li>11-24 people: 20% discount</li>
+                      <li>25+ people: 25% discount</li>
+                   </ul>
+             </td> 
+                            
+             <td valign="top">
+                <h3> Group Members</h3>
+                      <p>
+                         <input type="button" class="buttons" value="Add Member" />
+                         <input type="button" class="buttons" value="Delete Member" />
+                         <input type="button" class="buttons" value="Sort Member List" />
+                                    
+                      </p>
+                     
+                     <table border="0">
+                         <tr>
+                              <td>
+                                 <select name="group" id="members" size="13" style="width: 150px"></select>
+                              </td>
+                                  
+                              <td valign="top">Last name<br />
+                                <input type="text" name="lastname" id="lastname" size="30" placeholder="Smith" /><br />
+                                 First name<br />
+                                 <input type="text" name="firstname" id="firstname" size="30" placeholder="John"/><br />
+                               </td>
+                         </tr>
+                      </table>
+                                
+                                
+                          <p>
+                            How many people are in your group?
+                            <input type="text" name="Group Size" id="GroupSize" size="5" value="0" /></p>
+                          <p>  Your group rate is $<input type="text" name="Discounted Rate" id="discRate" size="6" value="" readonly="readonly" class="total" /> per person.</p>
+                               
+                            </td>
+                            
+                        </tr>
+                    </table>
+                    </form>
+                    </td><td class="layout">
+                   <div align="right"> <span id="advice"><em>Like this bee, be sure to stop <br /> and smell the flowers!</em></span></div>
+                   </td>
+                   </tr>
+                   </table>
+                </div>
+               
+               <div class="footer" align="center">
+                <div id="perch" style="padding-left: 20px; padding-top: 35px;" class="copy">
+                    Copyright &copy; 2021. Kelowna Wine Trails and Tours. All rights reserved
+                </div>
+            </div>
+ <script src="/script/Project.js"></script>
+</body>
+</html>
